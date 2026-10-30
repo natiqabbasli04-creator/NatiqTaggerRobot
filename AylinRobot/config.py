@@ -20,7 +20,7 @@ class Config:
    OWNER_NAME = os.environ.get("OWNER_NAME", "NatiqOwner") 
    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://qenberismayilzade005:natiq.3169@cluster0.wna0quv.mongodb.net/?retryWrites=true&w=majority")
-   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002049242182"))
+   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003452757907"))
    PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME", "GtaMusicPlaylist")
    PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1002074288242"))
    BAN_GROUP = int(os.environ.get("BAN_GROUP", "-1002049242182"))
