@@ -13,10 +13,10 @@ class Config:
 
    API_ID = int(os.getenv("API_ID", "21236884"))
    API_HASH = os.getenv("API_HASH", "2e526fe32b1177ba7ce3d552640ab854")
-   BOT_TOKEN = os.getenv("BOT_TOKEN", "6901430361:AAE55YsLiRegxSleEEOi1OkxXTqmyl_Cn40")
+   BOT_TOKEN = os.getenv("BOT_TOKEN", "9271280836:AAFfiz0VOUGTeeMQ1SY5WuFE3WdqynkMMYE")
    BOT_USERNAME = os.environ.get("BOT_USERNAME", "GtaTaggerRobot")
    BOT_NAME = os.environ.get("BOT_NAME", "𝙶𝚝𝚊 𝚃𝚊𝚐𝚐𝚎𝚛")
-   OWNER_ID = int(os.environ.get("OWNER_ID","6943473125"))
+   OWNER_ID = int(os.environ.get("OWNER_ID","8840604824"))
    OWNER_NAME = os.environ.get("OWNER_NAME", "NatiqOwner") 
    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://qenberismayilzade005:natiq.3169@cluster0.wna0quv.mongodb.net/?retryWrites=true&w=majority")
